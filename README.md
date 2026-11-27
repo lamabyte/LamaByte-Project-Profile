@@ -77,7 +77,7 @@ flowchart LR
 
 ## Engineering choices
 
-- **Static pages first.** I used Astro to generate every English and Spanish page as static HTML, so the content appears before any application code runs.
+- **Static pages first.** I used Astro to build every English and Spanish page as static HTML, so the content appears before any application code runs.
 - **The application loads when needed.** I made the interactive application a React component that loads only as a visitor scrolls near it, which keeps the rest of the site fast. Typed scenario data and state transitions give each walkthrough a predictable start and reset.
 - **Motion that respects the visitor.** The 3D meadow runs only on devices with hardware graphics support, and only after the page has loaded. I gave it a pause control, and visitors who prefer reduced motion see a still frame. Keyboard navigation and visible focus work across the site, and the touch effects leave normal scrolling and zooming intact.
 - **Booking on demand.** The scheduling calendar loads inline on the booking page or opens in a popup from a booking button. The site also provides a direct booking link.

@@ -10,7 +10,7 @@ These notes explain how I built lamabyte.systems, why I made the choices I did, 
 
 ## Static pages and an interactive application
 
-I used Astro to generate the English and Spanish pages as HTML, so visitors can read them before any application code runs. I made the operations application a React component that becomes interactive as it approaches the viewport, so its JavaScript loads only when a visitor is close to it. The five scenarios run in the browser on illustrative records bundled with the site. The application keeps scenario progress in memory and resets it on reload.
+I used Astro to build the English and Spanish pages as HTML, so visitors can read them before any application code runs. I made the operations application a React component that becomes interactive as it approaches the viewport, so its JavaScript loads only when a visitor is close to it. The five scenarios run in the browser on illustrative records bundled with the site. The application keeps scenario progress in memory and resets it on reload.
 
 This sketch shows how an Astro page can hydrate a React component shortly before it scrolls into view.
 

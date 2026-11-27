@@ -146,7 +146,7 @@ The booking pages scored **96 for Best Practices** in both local profiles. Each 
 
 ### Desktop Lighthouse results
 
-The desktop preset used a 1,350 × 940 viewport with simulated desktop network settings.
+I tested all 28 indexable English and Spanish pages at the Lighthouse desktop preset (1,350 × 940), 1080p, 1440p, and 4K with simulated desktop network settings. Accessibility, SEO, and Best Practices scores matched at all four sizes. Every page scored 100 for Performance through 1440p, and scores ranged from 99 to 100 at 4K. The tables below show the original desktop preset results. [Desktop viewport comparison](DESKTOP-LIGHTHOUSE-COMPARISON.md)
 
 | Page pair                 | Performance | Best practices |     LCP (s) |       CLS |
 | ------------------------- | ----------: | -------------: | ----------: | --------: |

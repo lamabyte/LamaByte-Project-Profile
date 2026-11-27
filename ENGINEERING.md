@@ -111,7 +111,7 @@ I checked how Google and Bing saw the site at launch in November 2026.
 
 **How these audits were run.** Both sweeps audited the same 28 indexable pages of the November 25, 2026 release, served from a local test server, with Lighthouse 13.4.1 in headless Chrome and one run per page. The server sent Brotli-compressed text, and analytics and error reporting were disabled. With WebGL disabled, the lab measured the plain hero background.
 
-Accessibility and SEO scored 100 on every page in both profiles, so the tables show the measures that varied. Each cell lists the English result first and the Spanish result second.
+Accessibility and SEO scored 100 on every page in both profiles. Each cell lists the English result first and the Spanish result second.
 
 ### Mobile Lighthouse results
 
@@ -146,24 +146,24 @@ The booking pages scored **96 for Best Practices** in both local profiles. Each 
 
 ### Desktop Lighthouse results
 
-The desktop preset used a 1,350 × 940 viewport with simulated desktop network settings. Performance scored 100 on every page.
+The desktop preset used a 1,350 × 940 viewport with simulated desktop network settings.
 
-| Page pair                 | Best practices |     LCP (s) |       CLS |
-| ------------------------- | -------------: | ----------: | --------: |
-| Home                      |      100 / 100 | 0.54 / 0.55 |     0 / 0 |
-| Solutions                 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
-| Revenue Recovery Systems  |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
-| Operations Automation     |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
-| Custom Applications       |      100 / 100 | 0.40 / 0.41 |     0 / 0 |
-| Operations Application    |      100 / 100 | 0.53 / 0.52 |     0 / 0 |
-| Residential Services      |      100 / 100 | 0.44 / 0.44 |     0 / 0 |
-| Light-Commercial Services |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
-| Process                   |      100 / 100 | 0.41 / 0.40 |     0 / 0 |
-| About                     |      100 / 100 | 0.40 / 0.41 |     0 / 0 |
-| Book a Discovery Call     |        96 / 96 | 0.51 / 0.51 | 0.003 / 0 |
-| Privacy Policy            |      100 / 100 | 0.40 / 0.37 |     0 / 0 |
-| Terms of Service          |      100 / 100 | 0.36 / 0.40 |     0 / 0 |
-| Accessibility             |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
+| Page pair                 | Performance | Best practices |     LCP (s) |       CLS |
+| ------------------------- | ----------: | -------------: | ----------: | --------: |
+| Home                      |   100 / 100 |      100 / 100 | 0.54 / 0.55 |     0 / 0 |
+| Solutions                 |   100 / 100 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
+| Revenue Recovery Systems  |   100 / 100 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
+| Operations Automation     |   100 / 100 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
+| Custom Applications       |   100 / 100 |      100 / 100 | 0.40 / 0.41 |     0 / 0 |
+| Operations Application    |   100 / 100 |      100 / 100 | 0.53 / 0.52 |     0 / 0 |
+| Residential Services      |   100 / 100 |      100 / 100 | 0.44 / 0.44 |     0 / 0 |
+| Light-Commercial Services |   100 / 100 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
+| Process                   |   100 / 100 |      100 / 100 | 0.41 / 0.40 |     0 / 0 |
+| About                     |   100 / 100 |      100 / 100 | 0.40 / 0.41 |     0 / 0 |
+| Book a Discovery Call     |   100 / 100 |        96 / 96 | 0.51 / 0.51 | 0.003 / 0 |
+| Privacy Policy            |   100 / 100 |      100 / 100 | 0.40 / 0.37 |     0 / 0 |
+| Terms of Service          |   100 / 100 |      100 / 100 | 0.36 / 0.40 |     0 / 0 |
+| Accessibility             |   100 / 100 |      100 / 100 | 0.40 / 0.40 |     0 / 0 |
 
 | Audit                  | Range across all 28 pages |
 | ---------------------- | ------------------------: |
